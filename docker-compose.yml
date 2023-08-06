@@ -23,6 +23,8 @@ services:
       - db
     ports:
       - "8000:80"
+    volumes:
+      - ./myweb:/var/www/html
     networks:
       - internal
 
