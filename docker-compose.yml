@@ -16,7 +16,7 @@ services:
       - internal
 
   web:
-    build: .
+    build: ./web:/app
     container_name: web
     restart: always
     depends_on:
