@@ -24,7 +24,7 @@ services:
     ports:
       - "8000:80"
     volumes:
-      - ./myweb:/var/www/html
+      - ./web:/var/www/html
     networks:
       - internal
 
